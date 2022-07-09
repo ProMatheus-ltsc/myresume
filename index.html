@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en" class=""><head>
     <meta charset="UTF-8">
     <title>我的简历</title>
     <link rel="stylesheet" href="static/css/style.css">
@@ -12,193 +9,157 @@
     <script src="static/js/script.js"></script>
 </head>
 
-<body>
+<body style="padding-right: 0px;">
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
                 <div class="portrait"></div>
-                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
-                    <h3>请输入图片URL地址：</h3>
-                    <br/>
-                    <input type="text" id="avatar-url">
-                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-                </div>
-                <h1 id="username" >Matheus</h1>
-                <h4 id="persona-tag" >Java / 后端工程师 / 广州</h4>
+                
+                <h1 id="username" contenteditable="true">李云飞</h1>
+                <h4 id="persona-tag" contenteditable="true">Java / 后端工程师 / 广州</h4>
             </div>
             <div class="profile info-unit">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">姓名</label><span class="label-value">XXX</span></li>
-                    <li>
-                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
-                    <li>
-                        <label class="left-label">毕业院校</label><span class="label-value">XX大学</span></li>
-                    <li>
-                        <label class="left-label">毕业年份</label><span class="label-value">2018</span></li>
-                </ul>
+                        <label class="left-label" contenteditable="true">籍贯</label><span class="label-value" contenteditable="true">河南驻马店</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    
+                    
+                <li>
+                        <label class="left-label" contenteditable="true">性别</label><span class="label-value" contenteditable="true">男</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
             </div>
             <div class="contact info-unit">
-                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">手机</label><span class="label-value">173XXXXXXXX</span></li>
+                        <label class="left-label" contenteditable="true">手机</label><span class="label-value" contenteditable="true">173242201943</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">邮箱</label><span class="label-value">matheusli@foxmail.com</span></li>
+                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">matheusli@foxmail.com</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">个人微信</label><span class="label-value">wuhanliyunfei</span></li>
+                        <label class="left-label" contenteditable="true">个人微信</label><span class="label-value" contenteditable="true">wuhanliyunfei</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">Github</label><span class="label-value">github.com/ProMatheus-ltsc</span></li>
+                        <label class="left-label" contenteditable="true">Github</label><span class="label-value" contenteditable="true">github.com/ProMatheus-ltsc</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="progress-list">
                     <li>
-                        <label class="left-label">Java</label>
+                        <label class="left-label" contenteditable="true">Java</label>
                         <progress value="80" max="100"></progress>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">SpringBoot</label>
+                        <label class="left-label" contenteditable="true">SpringBoot</label>
                         <progress value="70" max="100"></progress>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">SpringCloud</label>
+                        <label class="left-label" contenteditable="true">SpringCloud</label>
                         <progress value="60" max="100"></progress>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">Devops</label>
-                        <progress value="60" max="100"></progress>
-                    </li>
+                        <label class="left-label" contenteditable="true">Devops</label>
+                        <progress value="73.4375" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="stack info-unit">
-                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">技术栈</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="stack-list">
                     <li>
-                        <label class="left-label">SpringBoot</label><span class="label-value">jQuery、Angular.js、React.js</span></li>
-                    </li>
+                        <label class="left-label" contenteditable="true">熟练使用</label><span class="label-value" contenteditable="true">SpringMVC, MyBatis, SpringBoot,&nbsp;MySQL, Linux,Git, Docker, Redis.</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                     <li>
-                        <label class="left-label">SpringCLoud</label><span class="label-value">Flask、Django、Twisted、Node.js、MongoDB、MySQL、Redis</span></li>
-                    </li>
+                        <label class="left-label" contenteditable="true">熟悉</label><span class="label-value" contenteditable="true">RabbitMQ, RocketMQ,&nbsp;Jenkins, Kubernetes,&nbsp;SpringCloud组件,&nbsp;微信与支付宝支付技术,&nbsp;分布式事务和并发处理机制</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                     <li>
-                        <label class="left-label">Devops</label><span class="label-value">我全都是瞎写的。</span></li>
-                    </li>
+                        <label class="left-label" contenteditable="true">了解</label><span class="label-value" contenteditable="true">短信网关平台, 权限管理</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                 </ul>
             </div>
 
             <div class="code info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">个人TechBlog主页</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title" contenteditable="true">个人TechBlog主页</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <div class="weixin">
                     <img src="static/image/techblog.png" alt="">
 
                 </div>
             </div>
-            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
-                <h3>请输入图片URL地址：</h3>
-                <br/>
-                <input type="text" id="weixin-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-            </div>
+            
         </div>
         <div class="main">
             <div class="education info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>XX大学 - 物理学专业（本科）2014-2018</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">XX大学 - 物理学专业（本科）&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2014年9月-2018年6月</h3>
+                        <p contenteditable="true">主修课程: C语言程序设计 ( 96 ) , MATLAB及其应用 ( 89 ), C#语言程序设计 ( 97 ), 电子线路实验 ( 92 ), 计算物理 ( 87 ), 微机原理及接口实验 ( 93 ) , SPSS统计分析 ( 91), 概率论与数理统计 ( 87 ).</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="work info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">工作经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京创客空间－实习生（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">鑫虹互联网科技有限公司-Java后端开发&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2021年12月-2022年7月</h3>
+                        <p contenteditable="true">1. 负责商品管理,支付模块, 秒杀模块的开发, 对接数据中心, 协助项目经理完成开发任务.<div>2. 高效完成开发任务, 同时协助其他同事进行项目开发, 输出项目经验.</div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>实验楼－课程内容（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                </ul class="experience-list">
+                        <h3 contenteditable="true">卓越教育科技有限公司-研发师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2020年9月- 2021年12月</h3>
+                        <p contenteditable="true">1.&nbsp;根据公司产品发展方向, 开发新系统及系统升级改造; 对接平台实验室, 及时了解用户需求.<div>2. 参与集团多个系统的开发工作, 全栈开发云教研系统, 满足用户需求, 及时上线并开源美观的转pdf工具.</div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true">罡得教育科技有限公司-成长管家负责人&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;2018年6月 - 2020年8月</h3>
+                        <p contenteditable="true">1. 负责对接领导进行项目开发, 率领团队开发教学管家与成长管家系统, 同时承担一定的开发工作.<div>2. 按照项目计划, 在保证质量的前提下, 带领团队按时完成开发任务, 及时交付.</div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
             </div>
             <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">个人项目</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>基于 Qt 5 的文本编辑器</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <br/>
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">基于SpringCloudAlibaba的鑫虹商城&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2022年12月-2022年7月</h3>
+                        <p contenteditable="true">1. 该项目用到了Nacos, Dubbo,&nbsp;<span style="display: inline !important;">Sentinel, Seata和Gateway组件, 用到了Redis作为缓存中间件, RocketMQ作为消息中间件以及Elasticsearch搜索技术.</span><div><span style="display: inline !important;">2. 在这个项目中, 我负责商品管理, 支付模块和秒杀模块的开发, 学会了支付宝支付技术, 同时协助项目经理进行项目推进, 并协助项目组成员进行开发.</span></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>基于 Flask 的主机监视系统</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">基于SpringBoot2.5的卓越党建&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;2020年9月到2021年11月</h3>
+                        <p contenteditable="true">1. 该项目用到了Springboot, MyBatisPlus, MySQL和EasyExcel技术, 集学习手册, 党员风采, 内容管理等功能为一体, 满足用户对组织学习, 党建参阅, 党员管理等多种活动的场景需求.<div>2. 在这个项目中, 我负责整个后端模块的开发, 进一步熟悉了EasyExcel技术和权限管理的相关知识.</div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>基于 Live2D 与 clmtrackr 的山寨 Facerig</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">基于SpringBoot2.4的OMO云教研系统&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2020年12月-2021年9月</h3>
+                        <p contenteditable="true">1. 该项目为卓越内部员工提供完整的OMO解决方案, 包括校区管理, 云盘管理, 老师教研, 题库搭建, 线上线下授课, 课后评测, 教学数据可视化等系统支持. 该项目用到了SpringBoot, MyBatis, MySQL, Redis缓存技术, 并通过Docker进行敏捷开发与部署上线.<div>2. 在这个项目中, 我负责云盘管理, 题库搭建这两个模块的开发, 学习到了关于文档处理的很多知识, 同时与希沃白板团队进行合作.</div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>如果项目太少，可以在实验楼上找项目做啊:D</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                </ul>
+                        <h3 contenteditable="true">基于SpringCloud的在线教育商城&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2020年9月-2020年12月</h3>
+                        <p contenteditable="true">该项目是一个基于微信公众号B2C模式的在线学习平台, 该平台包含两大部分, 后台管理系统和公众号服务平台, 包含三个模块: 点播, 课程购买与微信消息服务. 该项目用到了Nacos, Sentinel, Seata, Gateway与Feign组件, 持久层框架采用MyBatisPlus, Redis作为内存缓存, RabbitMQ作为消息中间件, 还用到了腾讯云文件存储和视频点播服务, 并使用微信支付技术.</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true">基于SpringBoot2的成长管家系统&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2019年12月-2020年8月</h3>
+                        <p contenteditable="true"><div>1. 该项目是一个科学专业的评测体系, 包含家庭教育, 升学等模块, 通过全面评测生成完善的评估报告, 为学生提供系统性的人格培养与个性优化方案, 同时进行追踪和监测, 动态调整季度方案,&nbsp;针对性的帮助学生确定合理升学目标，并解决学子升学中的各项问题.</div><div>2. 在这个项目中, 负责带领团队进行开发, 同时承担一定的开发任务.&nbsp;<span style="display: inline !important;">通过这个项目, 熟悉了Vue, HTML5, CSS3, JavaScript; 熟悉了SpringMVC,SpringBoot,Mybatis；熟悉Mysql，会些复杂的sql语句；熟练使用Linux操作系统，熟悉Shell脚本以及常用的管理命令.</span></div><div><br></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
             </div>
-            <div class="trophy info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3>小学生作文二等奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
-                    <li>
-                        <h3>曾获统一冰红茶“再来一瓶”奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
-                    <li>
-                        <h3>这一行也是为了凑版面</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li>                     
-            </div>
-            <div class="aboutme info-unit right-paragraph">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
-                <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+            
+            
         </div>
     </div>
-</body>
 
-</html>
+
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal" tabindex="-1">
+                    <h3 contenteditable="true">请输入图片URL地址：</h3>
+                    <br>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal" tabindex="-1">
+                <h3 contenteditable="true">请输入图片URL地址：</h3>
+                <br>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div></div></body></html>
